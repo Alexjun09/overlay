@@ -3,11 +3,17 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    font-size: 16px;
+}
+h1 {
+    font-size: 2rem;
+}
 .galeria{
     font-family: Verdana;
 }
-.linea{
-    border-top: 5px solid red;
+.galeria h1{
+    border-bottom: 5px solid red;
     margin-bottom: 40px;
 }
 .contenedor-imagenes{
@@ -19,7 +25,7 @@
     border-radius: 3px;
 }
 .contenedor-imagenes .image{
-    width: 32%;
+    width: 25%;
     position: relative;
     max-height: 450px;
     margin-bottom: 5px;
@@ -76,4 +82,8 @@
     .contenedor-imagenes .image{
         width: 48%;
     }
+}
+a {
+    text-decoration: none; /* Removes underline */
+    color: white; /* Sets color to white */
 }
