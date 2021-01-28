@@ -5,6 +5,7 @@
 }
 body{
     font-size: 16px;
+    min-width: 250px;
 }
 h1 {
     font-size: 2rem;
@@ -40,7 +41,7 @@ h1 {
     position: absolute;
     bottom: 0px;
     left: 0px;
-    background: rgba(0,118,192,0.781);
+    background: rgba(199, 18, 18, 0.774);
     height: 0px;
     width: 100%;
     overflow: hidden;
