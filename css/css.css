@@ -7,13 +7,19 @@ body{
     font-size: 16px;
     min-width: 250px;
     background-image: url("../img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+
 }
 h1 {
     font-size: 2rem;
     color: white;
+    text-align: center;
 }
 .galeria{
-    font-family: Verdana;
+    font-family: 'Lucida Sans Regular';
 }
 .galeria h1{
     border-bottom: 5px solid red;
@@ -25,14 +31,14 @@ h1 {
     margin: auto;
     justify-content: space-around;
     flex-wrap: wrap;
-    border-radius: 3px;
+    border-radius: 0px;
 }
 .contenedor-imagenes .image{
     width: 25%;
     position: relative;
     max-height: 450px;
     margin-bottom: 5px;
-    box-shadow: 0px 0px 3px 0px rgba(0,0,0,.75);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,.75);
 }
 .image img{
     width: 100%;
