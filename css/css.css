@@ -17,6 +17,8 @@ h1 {
     font-size: 2rem;
     color: white;
     text-align: center;
+    padding: 10px;
+    font-style: oblique;
 }
 .galeria{
     font-family: 'Lucida Sans Regular';
@@ -57,7 +59,7 @@ h1 {
 }
 .overlay h2{
     color: white;
-    font-weight: 300px;
+    font-weight: 300;
     position: absolute;
     top: 50%;
     left: 50%;
