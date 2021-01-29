@@ -6,13 +6,24 @@
 body{
     font-size: 16px;
     min-width: 250px;
-    background-image: url("../img/background.jpg");
+    /*background-image: url("../img/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100%;
-    background-size: cover;
+    background-size: cover;*/
 
+}
+#background_wrap {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-image: url('../img/background.jpg');
+    background-attachment: fixed;
 }
 h1 {
     font-size: 2rem;
