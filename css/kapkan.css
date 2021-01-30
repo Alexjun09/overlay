@@ -1,0 +1,40 @@
+*{
+    margin: 00px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    min-width: 250px;
+    /*background-image: url("../img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    background-size: cover;*/
+
+}
+#background_wrap {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-image: url('');
+    background-attachment: fixed;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.kapkanbox {
+   
+}
+.kapkan{
+    height: 60px;
+    width: 60px;
+}
+#tablekapkaninfo{
+    text-align: center;
+}
